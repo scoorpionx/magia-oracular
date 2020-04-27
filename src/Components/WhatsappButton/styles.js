@@ -6,7 +6,7 @@ export const Div = styled.div`
     .Container {
         z-index: 6;
         right: 5vw;
-        bottom: 3vw;
+        bottom: 10vw;
     }
 
     .btn {
@@ -26,6 +26,10 @@ export const Div = styled.div`
     }
     
     @media only screen and (min-width: 1164px) {
+        .Container {
+            bottom: 3vw;
+        }
+
         .btn {
             width: 70px;
             height: 70px;

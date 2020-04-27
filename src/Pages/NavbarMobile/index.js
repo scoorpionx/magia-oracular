@@ -14,8 +14,6 @@ class Navbar extends Component {
                 </div>
                     <Link to="/">Página Inicial</Link>
                     <hr/>
-                    <Link to="/trabalhos">Trabalhos</Link>
-                    <hr/>
                     <Link to="/contato">Contato</Link>
                     <hr/>
             </Div>

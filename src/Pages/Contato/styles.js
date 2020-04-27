@@ -43,7 +43,7 @@ export const Div = styled.div`
         height: auto;
     }
 
-    .form {
+    .gform {
         display: flex;
         flex-direction: column;
         padding: 10px;
@@ -73,13 +73,17 @@ export const Div = styled.div`
 
     .msg {
         padding-top: 10px;
-        height: 300px;
+        height: 400px;
     }
     
     .div-btn {
         display: flex;
         flex-direction: row-reverse;
         width: 100.5%;
+    }
+
+    .thankyou_message {
+        display: none;
     }
     
     .btn {
@@ -102,7 +106,7 @@ export const Div = styled.div`
             height: auto;
         }
 
-        .form {
+        .gform {
             width: 40%;
         }
 
@@ -115,7 +119,7 @@ export const Div = styled.div`
         }
 
         .msg {
-            height: 100px;
+            height: 200px;
         }
 
         .btn {

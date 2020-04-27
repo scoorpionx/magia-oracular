@@ -15,6 +15,23 @@ export const Div = styled.div`
         height: 100%;
     }
 
+    hr {
+        width: 85%;
+        border: 2px solid;
+        border-radius: 4px;
+    }
+
+    .div-logo {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding-top: 150px;
+    }
+
+    .logo {
+        height: 300px;
+    }
+
     .content {
         width: 100%;
         display: flex;
@@ -22,7 +39,7 @@ export const Div = styled.div`
         align-items: center;
         font-family: 'AmsterW00-Negra','Roboto', sans-serif;
         color: #ffffff;
-        padding: 150px 0 150px 0;
+        padding: 0px 0 150px 0;
         text-align: center;
         font-size: 60px;
         font-size-adjust: 60px;
@@ -37,5 +54,11 @@ export const Div = styled.div`
 
     h1 {
         margin-bottom: 0;
+    }
+
+    @media only screen and (min-width: 1164px) {
+        .logo {
+            height: 400px;
+        }
     }
 `;

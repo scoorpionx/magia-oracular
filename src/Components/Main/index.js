@@ -6,33 +6,27 @@ class Main extends Component {
         return(
             <Div>
                 <div className="bg-img"></div>
-                <h1>Tenho a solução para todos seus problemas!</h1>
+                <h1>As cartas falam!</h1>
                 <span>
-                    Está desempregado? Com dívidas? O dinheiro não está rendendo?
-                    Está passando por um inferno astral no campo profissional?
-                    Sendo perseguido por inveja e olho grande?
-                    A pessoa que você gosta está com outro(a)?
-                    Quer recuperar aquele seu amor já perdido?
-                    Já parou para pensar que tudo isso pode ser resolvido através do meio astral?
+                    Está passando por alguma situação difícil?
+                    Não sabe como resolver seus conflitos pessoais como brigas, intrigas, discórdias?
+                    Precisa de aconselhamento no amor? O trabalho já não o satisfaz? Precisa de respostas rápidas?
+                    Está em dúvida sobre as pessoas que estão ao seu lado?
                 </span>
                 <span>
-                    Sendo filho de Xangô e Oxum, eu, Pai Davi de Xangô,
-                    sempre ajudo o próximo. Então, não me confunda com os (as) outros
-                    (as) que você já tenha visto.
+                    O Tarot está aqui para te ajudar, vai te mostrar quais são as influências
+                    externas e internas que estão impedindo o seu crescimento e influenciando 
+                    na sua vida e vai te dar o melhor direcionamento. 
                 </span>
                 <span>
-                    Livre-se das amarras que impedem o seu crescimento.
-                    Sou especialista em abertura de caminhos,
-                    faço e desfaço qualquer tipo de trabalho.
+                Não fique estagnado, não deixe pra resolver a sua vida amanhã ou depois, 
+                o Tarot pode ser o seu melhor amigo agora. A espiritualidade está em todo
+                lugar, logo vê tudo e sabe de tudo, você só precisa dar o primeiro passo. 
+                Tenha respostas diretas e claras sobre qualquer situação hoje mesmo.
                 </span>
                 <span>
-                    Seja por meio de mensagens ou de forma presencial (Salvador/BA),
-                    com apenas uma consulta no campo espiritual consigo fazer
-                    descobertas de todos os seus problemas.
-                </span>
-                <span>
-                    Meus trabalhos não envolvem o mal.
-                    Só trabalho com as forças espirituais das correntes brancas.
+                    Meus trabalhos não são afim de fazer mal aos outros e
+                    sim mostrar os melhores caminhos sem que interfira no livre árbitrio de cada um!
                 </span>
                 <h2>Formas de Pagamento</h2>
                 <span>
@@ -47,8 +41,18 @@ class Main extends Component {
                         <li>24h</li>
                     </ul>
                 </span>
-                <h3>Consultas a partir de R$ 50,00!</h3>
-                <h4>(71) 99916-5094 (WhatsApp)</h4>
+                <h2>Trabalhos</h2>
+                <span>
+                    <ul>
+                        <li>Aconselhamento espiritual</li>
+                        <li>Consultas com Baralho Cigano</li>
+                        <li>Consultas com Tarot de Marselha</li>
+                        <li>Consultas com Tarot das Bruxas</li>
+                        <li>Consultas com Tarot das Fadas</li>
+                    </ul>
+                </span>
+                <h3>Trabalhos 100% garantidos!</h3>
+                <h4>(62) 99340-5668 (WhatsApp)</h4>
             </Div>
         )
     }

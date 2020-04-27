@@ -33,7 +33,7 @@ export const Div = styled.div`
     }
 
     h1 {
-        font-size: 70px;
+        font-size: 80px;
         text-align: center;
     }
 
@@ -49,6 +49,10 @@ export const Div = styled.div`
         font-weight: 400;
     }
 
+    li {
+        padding-top: 30px;
+    }
+
     h3, h4 {
         text-align: center;
         font-size: 30px;
@@ -56,6 +60,7 @@ export const Div = styled.div`
 
     h3 {
         padding: 0;
+        padding-top: 30px;
         margin-bottom: 2px;
         font-weight: bolder;
     }
@@ -76,11 +81,19 @@ export const Div = styled.div`
         }
         
         h1 {
-            font-size: 50px;
+            font-size: 70px;
         }
 
         h2 {
             font-size: 30px;
+        }
+
+        li {
+            padding-top: 10px;
+        }
+
+        h3 {
+            padding-top: 0;
         }
 
         h3, h4 {

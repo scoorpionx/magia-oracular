@@ -23,13 +23,22 @@ class Contato extends Component {
                     </div>
                     
                     <div className="div-form">
-                        <form className="form" action="" method="post">
-                            <input className="nome" type="text" placeholder="Nome" />
-                            <input className="email" type="text" placeholder="Email" />
-                            <input className="assunto" type="text" placeholder="Assunto" />
-                            <textarea className="msg" type="text" placeholder="Digite aqui sua mensagem" />
+                        <form
+                            className="gform"
+                            action="https://script.google.com/macros/s/AKfycbwNQlV43wjEZtW8mTB8o6ySKkdrKM_WTKjkbq2RaaA7l7_nCUG5/exec"
+                            method="post"
+                        >
+                            <input name="name" className="nome" type="text" placeholder="Nome" />
+                            <input name="email" className="email" type="text" placeholder="Email" />
+                            <input name="subject" className="assunto" type="text" placeholder="Assunto" />
+                            <textarea name="message" className="msg" type="text" placeholder="Digite aqui sua mensagem" />
+                            
                             <div className="div-btn">
                                 <button className="btn">Enviar</button>
+                            </div>
+
+                            <div className="thankyou_message">
+                                <h2></h2>
                             </div>
                         </form>
                     </div>

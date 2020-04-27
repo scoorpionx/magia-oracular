@@ -23,7 +23,7 @@ class Footer extends Component {
                 </div>
 
                 <div>
-                    <span>© 2020 Magia Oracular - Todos os direitos reservados - Site criado por HEX42</span>
+                    <span>© 2020 Magia Oracular - Todos os direitos reservados - Site criado por <a href="https://www.linkedin.com/in/joao-vitor-borges">João Vitor</a></span>
                 </div>
             </Div>
         )

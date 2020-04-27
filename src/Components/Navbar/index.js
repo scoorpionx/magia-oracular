@@ -12,7 +12,6 @@ class Navbar extends Component {
                         <FaBars className="bars-icon"/>
                     </Link>
                     <Link to="/">Página Inicial</Link>
-                    <Link to="/trabalhos">Trabalhos</Link>
                     <Link to="/contato">Contato</Link>
                 </div>
             </Div>
